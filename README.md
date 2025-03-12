@@ -54,6 +54,12 @@ Correlation results for open-sky and urban data are shown in Figure 2.1 and Figu
 >
 > ![](./imgs/Urban/correlators.png)
 
+The Figure 2.3 shows the tracking results a satellite (PRN 1) in Urban data. It can be seen that the tracking results of this satellite are very good. From the correlation results, we can see that early and late are almost equal, and prompt is significantly larger. For more tracking results, run `plotTracking()` function to get the plot.
+
+> **Figure 2.3** Tracking Results of SV 1 (Urban)
+>
+> ![](./imgs/Urban/track1.png)
+
 
 
 ## Task 3
