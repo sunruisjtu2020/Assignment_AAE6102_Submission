@@ -158,15 +158,19 @@ $$F_k=\dfrac{\partial f}{\partial x}$$
 
 $$H_k=\dfrac{\partial h}{\partial x}$$
 
-The position and velocity obtained by using the EKF are shown in the figure 5.1 and 5.2. For the opensky data, it can be seen that the EKF can smooth both the position and velocity estimates.
+The position and velocity obtained by using the EKF are shown in the figure 5.1 and 5.2. For the opensky data, it can be seen that the EKF can smooth both the position and velocity estimates. For Urban data, affected by the multipath caused by high-rising buildings, the psuedorange measurement accurancy is varing so the velocity and position estimation is less accurate. EKF has limited usefulness.
 
 > **Figure 5.1** EKF Opensky
 >
 > ![](./imgs/Opensky/ekf.png)
+>
+> ![](./imgs/Opensky/ekfpos.png) 
 
 > **Figure 5.2** EKF Urban
 >
 > ![](./imgs/Urban/ekf.png)
+>
+> ![](./imgs/Urban/ekfpos.png)
 
 ## Reference
 
