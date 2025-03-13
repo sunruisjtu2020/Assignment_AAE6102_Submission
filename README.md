@@ -181,3 +181,5 @@ The position and velocity obtained by using the EKF are shown in the figure 5.1 
 🏵️ Thanks for Claude 3.7 Sonnet. This assisted me when writing code to modify the SDR.
 
 🐋 Thanks for DeepSeek R1. This helped me deriving many equations.
+
+My prompts for deepseek was attached in directory ai_prompts. Claude 3.7 Sonnet work as Copilot in VS Code, I cannot export the chat history with it.
